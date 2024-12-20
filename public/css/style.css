@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+.navbar-nav {
+  width: 100%; /* Memastikan navbar-nav mengambil seluruh lebar */
+  text-align: start; /* Memusatkan teks */
+}
+
+.nav-item {
+  display: inline-block; /* Memastikan item ditampilkan secara horizontal */
+}
+
+.nav-link {
+  color: black; /* Mengubah warna teks menjadi hitam */
+}
+.btn-outline-warning {
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: #ffebbb;
+    padding: 10px 45px;
+    color: black;
+  }
+
+
+#hero {
+    background-image: url('/img/sekolah.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+
+}
+
+.hero-title {
+  padding-top: 200px;
+}
+
+.hero-text{
+  font-size: 65px;
+  font-weight: 600;
+}
+
+    /* join */
+.stripe {
+ height: 5px;
+ width: 40px;
+ background-color:#0092ca;
+}
+
+/* video */
+#video {
+    background-image: url('/img/bg-yt.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+  }
+  
+  /* foto */
+
+  .section-foto {
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .parallax {
+    background-image: url('/img/kegiatan.png');
+  }
+
+  .stripe-putih {
+    height: 5px;
+    width: 40px;
+    background-color: #ffffff;
+  }
+    
+  
+  .btn {
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* index.create*/
+.table-custom {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table-custom thead {
+  background-color: #333;
+  color: #fff;
+}
+
+.table-custom th, .table-custom td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+
+.table-custom tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.table-custom img {
+  width: 50px;
+  height: auto;
+  border-radius: 5px;
+}
+.table-custom td:first-child, .table-custom td:last-child {
+  text-align: center;
+}
+
+
+
+
+/* public/css/style.css */
+/*login.blade*/
+/* From Uiverse.io by kennyotsu-monochromia */ 
+.container9 {
+  width: 100%;
+  height: 100%;
+  --color: #E1E1E1;
+  background-color: #F3F3F3;
+  background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
+      linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
+  background-size: 55px 55px;
+}
+
+/* create.index */
+
+.container12 {
+  /* Basic dimensions and centering */
+  
+
+  /* Dark mode colors and gradient */
+  background: #121212; /* Fallback for browsers that don't support gradients */
+  background: linear-gradient(
+    135deg,
+    #121212 25%,
+    #1a1a1a 25%,
+    #1a1a1a 50%,
+    #121212 50%,
+    #121212 75%,
+    #1a1a1a 75%,
+    #1a1a1a
+  );
+  background-size: 40px 40px;
+
+  /* Animation */
+  animation: move 4s linear infinite;
+}
+
+@keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 40px 40px;
+  }
+}
+
+
+
+
+
+.form12 {
+  background-color: transparent;
+  display: block;
+  padding: 1rem;
+  max-width: 350px;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px 3px rgba(243, 239, 239, 0.495), 0 7px 6px 8px rgba(222, 215, 215, 0.39);
+}
+
+.form-title12 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  text-align: center;
+  color: #000;
+}
+
+.input-container12 {
+  position: relative;
+}
+
+.input-container12 input, .form12 button {
+  outline: none;
+  border: 1px solid #e5e7eb;
+  margin: 8px 0;
+}
+
+.input-container12 input {
+  background-color: #fff;
+  padding: 1rem;
+  padding-right: 3rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  width: 300px;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.submit12 {
+  display: block;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  background-color: #4F46E5;
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  width: 100%;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 300px;
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-title {
+  color: #680747;
+  text-shadow: 2px 2px 8px #d4cdcd;
+}
+#h2w {
+  color: #9a031e;
+
+}
