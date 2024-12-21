@@ -26,8 +26,8 @@
         </div>
 
         <div class="mb-3 text-start input-container12">
-            <label>Nama</label>
-            <input type="text" name="nama" class="form-control" required>
+            <label>Nama :</label>
+            <input type="text" name="nama" placeholder="nama" class="form-control" required>
         </div>
 
 
